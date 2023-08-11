@@ -24,7 +24,7 @@ SELECT title
 
 SELECT title
 	FROM public.film
-	WHERE LOWER(title) LIKE '%action%'
+	WHERE (title) LIKE '%Action%'
 	
 
 #### List the titles of movies that contain the word "Love" in any case (case-insensitive)
